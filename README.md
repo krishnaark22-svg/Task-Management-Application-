@@ -24,3 +24,30 @@ JSON Web Tokens (JWT)
 bcrypt.js
 Optional
 Socket.IO
+🔗 API Endpoints
+Authentication
+POST /api/auth/register – Register
+POST /api/auth/login – Login
+Tasks
+GET /api/tasks – Get all tasks
+POST /api/tasks – Create task
+GET /api/tasks/:id – Get single task
+PUT /api/tasks/:id – Update task
+DELETE /api/tasks/:id – Delete task
+🔐 Authentication Flow
+User registers or logs in
+Server returns JWT token
+Token stored in localStorage
+Token used for protected API requests
+🌟 Future Enhancements
+Drag-and-drop Kanban board
+Dark mode
+Notifications
+Team collaboration
+File uploads
+🎯 Learning Outcomes
+Full-stack MERN development
+REST API design
+Authentication & security basics
+React state management
+Responsive UI design
