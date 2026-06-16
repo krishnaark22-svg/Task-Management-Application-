@@ -1,0 +1,10 @@
+// src/components/TaskCard.jsx
+export default function TaskCard({ task }) {
+  return (
+    <div className="border p-4 rounded shadow">
+      <h3 className="text-lg font-bold">{task.title}</h3>
+      <p>{task.description}</p>
+      <span className="text-sm">{task.status}</span>
+    </div>
+  );
+}
